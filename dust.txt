@@ -1,0 +1,19 @@
+
+i will add both the the files from lesson one and the lesson two. Because the lesson 1 will be saved as the version as it is, because it is completed. Though there are less chances that i will make the changes in that but if i made any, this original file version will always be there for me. And the second one, it is interesting to know the behavior of the GIT to save the history of the file at several stages.
+
+
+# On branch master
+#
+# Initial commit
+#
+# Changes to be committed:
+#   (use "git rm --cached <file>..." to unstage)
+#
+#	new file:   lesson_1_reflections.txt
+#	new file:   lesson_2_reflections.txt
+#
+# Untracked files:
+#   (use "git add <file>..." to include in what will be committed)
+#
+#	asteroids/
+#	pappu-pakia/
