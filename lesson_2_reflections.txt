@@ -1,0 +1,22 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+ANS: Initializing a repository means starting the process of our own version control by having a place to create our own commits for our ongoing project. The initialization of the repository is done with "git init" command. The path to the directory in which we run this command will be our repository. As a sign that this directory has been made a repository for the version control, it creates a hidden folder named "git" in the same directory. And the questioon that why do we need it, it is to tell the "GIT" program that following directory will be used for the commit purposes. And it is a sign to the GIT program that it can put its supportive files into this folder to serve that purpose of version control.
+
+How is the staging area different from the working directory and the repository?
+What value do you think it offers?
+
+ANS: Working directory is the current directory in which the files which we want to be the part of the version-control are resides. Secondly the repository is the place where our commited files will take place, they will be the part of the version-control. We can add our files to the repository with git add command directly into the repository. But Git provides more functionality as it provides a separate area called "staging area". This fits between the working directory and the repository. Suppose we want to make two or more files that part of the repository. We will add them to the repository with the command we have. In the background what the git does, it adds the files one by one into the staging area then if we want those multiple files to be the part of the repository, it adds them into the repository as a single commit.
+
+How can you use the staging area to make sure you have one commit per logical
+change?
+
+What are some situations when branches would be helpful in keeping your history
+organized? How would branches help?
+
+How do the diagrams help you visualize the branch structure?
+
+What is the result of merging two branches together? Why do we represent it in
+the diagram the way we do?
+
+What are the pros and cons of Gitâ€™s automatic merging vs. always doing merges
+manually?
