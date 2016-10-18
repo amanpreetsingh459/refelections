@@ -1,0 +1,42 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+Ans: As the old version of the file is having the correct version of the text, so comparing it with the newly created file will give us the lines of the text which are different than the other. In this way we can find the errorneous or diffrent lines.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+Ans: As the programmers we start writing programs enthusiastically from the start. As the things go well, will be happier and will complete one or two few levels of the programming with no much hustle. Then the time comes we stuck somewhere. At this time we are completely tired of our code. Don't know where is it going wrong. Then we want to take a look at the previous version to know how it was working fine the last time and why don't now. Thus it will help in getting the insight of our code more deeply. And will let us analyse more about new code. And of course about the previous written code. Thus helps to make us a good programmer.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+Ans:-
+pros:
+	-We will know exactly what is the logical change we have made in our code.
+	-Will not get extra saved commited points thus avoid burden of the unnecessary commits.
+	-can avoid the problem of very early and very late of saving the changes.
+cons:
+	-we can forget to save a commit as human error
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+Ans: It is with the programming environment of the diffrent languages. As they are made in a way that multiple files work together to perform a single task. HTML and CSS files are the great example for this as together makes up a web page. So GIT provides saving those kind of the files in a single click. While with the Google docs that does not provide much flexibility to commit the files in a single commit. Rather they tend to do it deparately for each file. This can be due to the cases as even if the files are of dependent nature but still we can make the change in one file only, and want to go with the same versions of the other files. So having the previous commit only and not to duplicate the event. There can be a case as suppose a java program has been made. We have one POJO class which will be having the actual data and a controller class may be servlet, to process the data and along with an HTML page and a CSS to show the output. If we make change some logic in our java program then it will require to save the commit only for java specific files and not in HTML and CSS. So that commit for HTML and CSS files will be unnecessary.
+
+How can you use the commands git log and git diff to view the history of files?
+
+Ans:- 
+git log: git log command is used to view the previously made commits to the files. It will show all the commited states along with thier IDs and its titles till the screen full. Next if we want to see the more logs we can press enter key or down arrow key till the end. If we want to stop looking more logs we need to press q key to quit from the git log.
+
+git diff: git diff is used to find the difference between to commits. It will compare to commits based on thier ids and will give the output as the + and - signs along with the lines which were added in the new commit or removed from the new commit respectively. syntex is git log <first commit ID> <second commit ID>
+
+How might using version control make you more confident to make changes that
+could break something?
+
+ Ans: Ofcourse it makes me confident because i will have the correctly working version of my program saves as a commit. This gives me the flexibility to make the changes freely as i know that if intentionally or inintenionally something goes wrong, i am having the working previous veersion already safe with me.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+Ans: First thing, idon't think that my workspace has been set up. Because i don't see my terminal window changed in any way. It is like previous only. Sorry for this. Actually now the work space is set up and now i want to know everything about how to master version control system to be a better programming expert.
