@@ -10,13 +10,37 @@ ANS: Working directory is the current directory in which the files which we want
 How can you use the staging area to make sure you have one commit per logical
 change?
 
+ANS: Staging area the intermediate area between commiting our change and making a necessary change in any of our source files. It helps in deciding that change is the logical one in the way that whenever the file is under staging area, we can compare it to the last commit(with "git diff --staged" command) which we have made to ensure that the change which we are going to make is the logical one by comparing the changes made in the file since the last commit. Next we can compare the changes made with the original file(with just "git diff" command). It will give the insight that whether the change which we have made is logical one or not. In case we found that it is not much logical to be add as commit, then we can discard the changes(with the "git reset --hard" command) in the file which resides in staged area as well as the file in working directory.
+
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
+ANS: First thing branches help in experimenting. That is if we want to try something out with our existing application and not very sure to make it permanent, then branching can help in that in the way that we can have a separate branch which will be having that separate experimental change under it. So we can track experimental versions of our original application. And we can switch between the branches with "git checkout <branch-name>" command.
+
 How do the diagrams help you visualize the branch structure?
+
+ANS: Diagrams provide the good way to understnad the heirarchy of the commits made under the diffrent branches.We can visualize the separate comments under each separate branch. Thus can have insight of each commit as under the different branch.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
+ANS: The merging of two files result in adding the lines(not all the lines necessarily) from both the files in the way that there should be no disturbance occured in the original file and all the necessary changes that should take place by merging the two files should occur. And for the order git uses the timestamp to place the appripriate commit at its appropriate place.
+
 What are the pros and cons of Gitâ€™s automatic merging vs. always doing merges
 manually?
+
+ANS: Automatic:-
+			pros:- 
+				-it does the wrok byself. No need for extra effort.
+				-it takes the good decision based on the algorithm used for merging.
+			cons:-
+				-the changes cannot be accaptable all the time.
+				-in case of conflicts we have to do manual work to make the merge work.
+
+	Manual:-
+			pros:-
+				-we can always make the most acceptable merge according to the real world needs.
+				-less chances of occuring the conflicts.
+			cons:-
+				-always tiring since after o much of the coding if we need to again adust it according to git, it will be tedius only.
+				-time consuming.
