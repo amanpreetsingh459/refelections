@@ -41,3 +41,13 @@ ANS: It can be beneficial in the way that confliction of the changes that is we
 	deffrent changes in the same file on the GitHub. So in this conflicting situation it is better to 
 	store a local copy of the remote. So that we could take reference that exactly what changes have
 	been made so far.
+
+How would you collaborate without using Git or GitHub?  What would be easier,
+and what would be harder?
+
+ANS: Since GitHub is hosted on the web so it is much easier to collaborate with everyone when multiple
+	people are working on the same project. Along with it we can make use of Git for various purposes
+	like cloning repositories into our local machine and reflecting the specific changes over the GitHub
+	and making suggestions about the previously commited files. So i don't think that the notion of using
+	either Git or GitHub soulh come into picture rather than we should use it as the both to takethe most
+	of it.
