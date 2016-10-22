@@ -10,3 +10,25 @@ automatically stay up-to-date with your remote repository?
 
 ANS:- First of all i think it better that Git stay up-to-date with remote repository.
 Secondly why would we want to pull it manually, i want to see what caroline says about it.
+
+Describe the differences between forks, clones, and branches.  When would you
+use one instead of another?
+
+ANS:- 
+	Forks: Forking means making the copy of the repository from GitHub to GitHub. That is
+			we can copy any other repository which will be under someones profile available
+			for sharing, into our own set of the repositories onto the GitHub itself. We can
+			change it on our own to create our own version of the same. The changes which we
+			have made to the forked repository will be available to the original repository 
+			if we are added as the contributor on to the profile of the person from which we
+			forking. We can copy the same to our local machine by using "pull" method.
+	Clones: Cloning means copying the repositories from remote to our own local machines.
+			Remote can be one of our own repositoy on GitHub or anyone's repository on somewhere
+			else available for sharing.
+	Branches: Branches refer to making the separate version of the repository from the existing
+			one. That may be due to the need of performing some experimental changes to our existing
+			or to have entirely diffrent subset of our repository.
+
+	So when it is better to use one over the other depends on in what scenario we want to use the 
+	repositories. That can be like forks for GitHub to GitHub, clones for Remote to local and
+	branches for local to local.
