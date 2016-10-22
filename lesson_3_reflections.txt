@@ -32,3 +32,12 @@ ANS:-
 	So when it is better to use one over the other depends on in what scenario we want to use the 
 	repositories. That can be like forks for GitHub to GitHub, clones for Remote to local and
 	branches for local to local.
+
+What is the benefit of having a copy of the last known state of the remote
+stored locally?
+
+ANS: It can be beneficial in the way that confliction of the changes that is we 
+	have introduces some changes in the code in a file on our local machine and someone else introduced 
+	deffrent changes in the same file on the GitHub. So in this conflicting situation it is better to 
+	store a local copy of the remote. So that we could take reference that exactly what changes have
+	been made so far.
