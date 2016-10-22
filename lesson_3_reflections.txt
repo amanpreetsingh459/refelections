@@ -4,3 +4,9 @@ ANS:- This can be in the case when multiple people are working on the same proje
 This can be in the case that one person would be writing the backend code for accessing database and 
 making changes to it and other person would be designing the UI for the same. This kind of work will
 be more effficient if the files are remote on the server rather than on local systems.
+
+why might you want to always pull changes manually rather than having Git
+automatically stay up-to-date with your remote repository?
+
+ANS:- First of all i think it better that Git stay up-to-date with remote repository.
+Secondly why would we want to pull it manually, i want to see what caroline says about it.
