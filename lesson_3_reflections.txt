@@ -1,1 +1,6 @@
 When would you want to use a remote repository rather than keeping all your work local?
+
+ANS:- This can be in the case when multiple people are working on the same project and on the same files.
+This can be in the case that one person would be writing the backend code for accessing database and 
+making changes to it and other person would be designing the UI for the same. This kind of work will
+be more effficient if the files are remote on the server rather than on local systems.
